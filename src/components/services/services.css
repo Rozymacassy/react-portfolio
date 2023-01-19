@@ -1,7 +1,8 @@
 .services__container{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display:block;
     gap: 3rem;
+    justify-items: center;
+
 }
 
 .service{
@@ -10,6 +11,7 @@
     border: 1px solid var(--color-primary);
     height: fit-content;
     cursor: pointer;
+
 }
 
 .service:hover{

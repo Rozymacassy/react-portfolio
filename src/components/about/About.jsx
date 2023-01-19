@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/me-about.jpg'
+import ME from '../../assets/macassy-abt.png'
 import {FiAward} from 'react-icons/fi'
 import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
@@ -27,32 +27,29 @@ const About = () => {
             <article className='about__card'>
               <VscFolderLibrary className='about__icon'/>
               <h5>Projets</h5>
-              <small>80+ Completed projects</small>
+              <small>20+ Completed projects</small>
 
             </article>
 
           <article className='about__card'>
               <FiUsers className='about__icon'/>
               <h5>Clients</h5>
-              <small>200+ Worldwide</small>
+              <small>10+ Happy Clients</small>
           
           </article>
 
             <article className='about__card'>
               <FiAward className='about__icon'/>
               <h5>Experience</h5>
-              <small>3+ Years Working</small>
+              <small>2+ Years Working</small>
 
             </article>
         </div>
 
-
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, possimus 
-              quos? Pariatur sed nobis vel laborum nulla in, molestiae possimus veniam consequatur
-              nemo corrupti odio ipsam temporibus incidunt modi, qui doloribus consectetur. Reprehenderit 
-              quae earum eveniet odio optio et eius debitis voluptates, nulla ex numquam, illo magni ratione 
-
+            I am a creative and motivated Web Developer with experience 
+            in creating Interactive Web Applications with
+             a Strong Collaboration Skill and Proven history of Application Development.
             </p>
 
             <a href="#contact" className='btn btn-primary'>Let's Talk</a>

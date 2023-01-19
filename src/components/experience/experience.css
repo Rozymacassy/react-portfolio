@@ -34,7 +34,8 @@
 
 .experience__details{
     display: flex;
-    gap:1rem;
+    padding: 0 1rem;
+
 }
 
 .experience__details-icon{

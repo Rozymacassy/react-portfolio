@@ -29,7 +29,7 @@
 
 html {
     scroll-behavior: smooth;
-
+    /* overflow-x: none; */
 }
 
 ::-webkit-scrollbar {
